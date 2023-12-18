@@ -1,0 +1,59 @@
+/* Lapangan */
+:root {
+  --pr-color: #9e0620;
+  --offcanvas-width: 270px;
+}
+.sub-judul {
+  font-weight: 600;
+  color: #fff;
+}
+
+.card {
+  height: 450px;
+  background-color: #f2f1f1;
+}
+.card-body {
+  height: 100px;
+  background-color: #262626;
+  position: static;
+}
+
+.nama-lapangan {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #f2f1f1;
+}
+.harga-lapangan {
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+  color: #f2f1f1;
+  margin: 0;
+}
+
+.btn-lihat {
+  background-color: var(--pr-color);
+  color: #fff;
+  text-align: center;
+  border-radius: 11px;
+  width: 95px;
+  height: 38px;
+}
+.card:hover {
+  background: #262626;
+  box-shadow: 0, 10px, 20px, rgba(0, 0, 0, 0.25);
+}
+
+.card:hover .card-body p {
+  color: #262626;
+  transition: all ease-in-out 0.3s;
+}
+.card:hover .card-body {
+  background: #f2f1f1;
+  transition: all ease-in-out 0.3s;
+}
+
+.card:hover .card-body .btn-lihat {
+  background-color: #262626;
+}

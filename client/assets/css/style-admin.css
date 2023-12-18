@@ -1,0 +1,161 @@
+:root {
+  --pr-color: #9e0620;
+  --offcanvas-width: 270px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  font-family: "Poppins", sans-serif;
+}
+.side-bar {
+  background: #262626;
+  backdrop-filter: blur(15px);
+  width: 274px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  /* left: -250px; */
+  overflow-y: auto;
+  transition: 0.6s ease;
+  transition-property: left;
+}
+.side-bar.active {
+  left: 0;
+}
+
+.isi {
+  margin-left: 274px;
+}
+
+header h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--pr-color);
+  font-family: "Poppins", sans-serif;
+}
+
+header p {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
+  color: #fff;
+}
+
+header img {
+  width: 98px;
+  height: 98px;
+  /* margin: 15px; */
+  border: 3px solid var(--pr-color);
+}
+h1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  padding-bottom: 13px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+}
+
+.side-bar .menu {
+  /* width: 100%; */
+}
+.side-bar .menu .item {
+  position: relative;
+  cursor: pointer;
+}
+.side-bar .menu .item a {
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-top: 10px;
+  display: block;
+  background: #d9d9d9;
+  border-radius: 31px;
+  width: 250px;
+  height: 40px;
+}
+.side-bar .menu .item a:hover {
+  background: var(--pr-color);
+  color: #fff;
+  transition: 0.3s ease;
+}
+.side-bar .menu .item i {
+  margin-right: 15px;
+}
+
+.side-bar .menu .item a .dropdown {
+  position: absolute;
+  margin-top: 4px;
+  margin-left: 120px;
+  transition: 0.3s ease;
+}
+.side-bar .menu .item .sub-menu {
+  background: #262627;
+  display: none;
+}
+.side-bar .menu .item .sub-menu a {
+  padding-left: 20px;
+  background: none;
+  color: #fff;
+}
+.rotate {
+  transform: rotate(90deg);
+}
+
+.menu-btn {
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  margin: 25px;
+  cursor: pointer;
+}
+
+/* Isi */
+.navbarr {
+  background-color: #f2f1f1;
+  position: relative;
+  height: 55px;
+}
+.btn-lihat {
+  background-color: var(--pr-color);
+  color: #fff;
+  border-radius: 11px;
+  margin-top: 8px;
+  width: 95px;
+  height: 38px;
+  font-weight: 500;
+  border: none;
+}
+.btnn {
+  color: #ffffff;
+  border-radius: 5px;
+  font-weight: 400;
+  border: none;
+  padding: 1px 10px;
+}
+
+.page-heading {
+  margin-bottom: none;
+}
+.card-body {
+  margin-top: 20px;
+  border-radius: 20px;
+  weight: 50vw;
+  padding-bottom: none;
+  margin-bottom: none;
+  background-color: #f2f1f1;
+}
+
+.side-active {
+  background-color: var(--pr-color);
+}

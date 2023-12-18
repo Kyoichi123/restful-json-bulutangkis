@@ -1,0 +1,177 @@
+/* navbar style */
+:root {
+  --pr-color: #9e0620;
+  --offcanvas-width: 270px;
+}
+
+* {
+  z-index: 2;
+}
+
+.navbar {
+  z-index: 3;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3fff4;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 32px;
+  color: #ff6969;
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.nav-link.active {
+  font-weight: 700;
+}
+
+.button-secondary {
+  font-size: 20px;
+  font-weight: 600;
+  height: 38px;
+  width: 95px;
+  background-color: var(--pr-color);
+  border-radius: 11px;
+  color: #fff;
+  border: none;
+}
+
+.button-primary {
+  font-size: 20px;
+  font-weight: 600;
+  height: 38px;
+  width: 95px;
+  background-color: transparent;
+  color: var(--pr-color);
+  border: none;
+}
+
+/* Heroo */
+#hero {
+  background: linear-gradient(160deg, var(--pr-color), #000);
+  height: 100vh;
+  width: 100%;
+}
+
+.hero-tagline h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.hero-tagline p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.hero-button {
+  font-size: 27;
+  font-weight: 600;
+  color: #fff;
+  height: 58px;
+  width: 181px;
+  background-color: var(--pr-color);
+  border: none;
+}
+
+/* .social-icon{
+    margin-top: 170px;
+} */
+
+.social-icon a {
+  margin-right: 15px;
+}
+
+.com {
+  font-size: 16;
+  font-weight: 700;
+}
+
+.com span {
+  color: var(--pr-color);
+}
+
+.img-hero {
+  height: 100%;
+}
+
+/* Canvass */
+.sidebar-nav {
+  width: 270px;
+}
+
+/* Lapangan */
+#lapangan {
+  padding: 100px 0;
+  height: 100vh;
+  background-color: black;
+}
+
+.sub-judul {
+  font-weight: 600;
+  color: #fff;
+}
+
+.card {
+  height: 419px;
+}
+
+.nama-lapangan {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: var(--pr-color);
+}
+.harga-lapangan {
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+}
+
+.btn-lihat {
+  background-color: var(--pr-color);
+  color: #fff;
+  text-align: center;
+  border-radius: 11px;
+  width: 95px;
+  height: 38px;
+}
+
+.card:hover {
+  background: var(--pr-color);
+  box-shadow: 0, 10px, 20px, rgba(0, 0, 0, 0.25);
+}
+
+.card:hover .card-body p {
+  color: #fff;
+  transition: all ease-in-out 0.3s;
+}
+
+.card:hover .card-body .btn-lihat {
+  background-color: #fff;
+  color: var(--pr-color);
+}
+
+/* Kontak */
+#kontak {
+  height: 180px;
+  background-color: var(--pr-color);
+}
+.penutup h4 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #fff;
+}
+.penutup p {
+  font-weight: 200;
+  font-size: 14px;
+  color: #fff;
+}

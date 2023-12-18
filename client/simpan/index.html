@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!----------- Star Navigasi ----------->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light position-fixed w-100"
+    >
+      <div class="container">
+        <a class="text-reset navbar-brand" href="#">PUTSAL.COM</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active me-2" aria-current="page" href="#"
+                >BERANDA</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-2" href="#lapangan">LAPANGAN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-2" href="#kontak">KONTAK</a>
+            </li>
+          </ul>
+
+          <button
+            class="button-primary float-right"
+            onclick="location.href='admin.php'"
+          >
+            MASUK
+          </button>
+          <button class="button-secondary">DAFTAR</button>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navigasi -->
+
+    <!-- Hero -->
+    <section id="hero">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-5 my-auto hero-tagline">
+            <h1>Tempatnya Booking Lapangan</h1>
+            <p>
+              Dengan ini anda dapat booking
+              <span class="fw-bold">lapangan futsal</span> tanpa harus datang
+              kelapangan. Memudahkan anda mengecek jadwal dan membookingnya
+            </p>
+            <button class="hero-button me-3">BOOK-ing</button>
+            <img src="assets/img/row.png" alt="" />
+
+            <div class="social-icon position-absolute bottom-0">
+              <a href="">
+                <img src="assets/img/yt.png" alt="" />
+              </a>
+              <a href="">
+                <img src="assets/img/fb.png" alt="" />
+              </a>
+              <a href="">
+                <img src="assets/img/ig.png" alt="" />
+              </a>
+              <a href="">
+                <img src="assets/img/tw.png" alt="" />
+              </a>
+              <p class="com mt-2">
+                <span class="fw-bold">DAWUDFAUZAN</span> COMPANY
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="assets/img/salah 1.png"
+          alt=""
+          class="position-absolute end-0 bottom-0 img-hero"
+        />
+      </div>
+    </section>
+
+    <!-- Lapangan -->
+    <section id="lapangan">
+      <div class="container">
+        <div class="row">
+          <div class="row">
+            <div class="col-12 text text-center">
+              <h1 class="sub-judul">Lapangan</h1>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-4">
+              <div class="card p-2 mt-5" style="width: 380px">
+                <img src="assets/img/lapangan.png" alt="" />
+                <div class="card-body">
+                  <p class="nama-lapangan fw-bold">Lapangan 1</p>
+                  <p class="harga-lapangan fw-bold">IDR 150.000/Hrs</p>
+                  <div class="d-flex justify-content-center">
+                    <button class="btn btn-lihat">LIHAT</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="kontak">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="penutup mt-5">
+              <h4 class="text-center">Futsal KUY</h4>
+              <p class="text-center">
+                Copyright bg Dawud Creative All Right Reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <link rel="stylesheet" href="assets/js/popper.min.js" />
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
